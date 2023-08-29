@@ -1,0 +1,28 @@
+Do not delete (final working model necessities):
+    Model/dataset_v0.csv
+    Model/Model/Decision_Tree_Regressor_v0.csv
+
+Demonstration Guide:
+    1. Run main.py
+    2. Predict Song Popularity
+        * upload file: Demo Files/sample 2
+    3. Retrain Model without tuning
+        * upload file: Demo Files/train 1
+        * Model/Model_History.csv will be updated with one row
+        * Model/dataset_v2.csv will be created --- aggregation of old and new datasets
+        * Decision_Tree_Regressor will be updated
+    4. Predict Song Popularity
+        * upload file: Demo Files/sample 2
+    5. Retrain Model with Tuning (8-10 mins for cv = 5) (3-5 mins for cv = 2)
+        * upload file: Demo Files/train 1
+        * Model/Model_History.csv will be updated with one row
+        * Model/dataset_v3.csv will be created --- aggregation of old and new datasets
+        * Decision_Tree_Regressor will be updated
+    6. Predict Song Popularity
+        * upload file: Demo Files/sample 3
+
+To Do After Demonstration:
+    1. Replace Decision_Tree_Regressor with Model/Decision_Tree_Regressor_v0
+    2. Delete Model/dataset_v2.csv and Model/dataset_v3.csv
+    3. Delete last 2 rows in Model/Model_History.csv
+    

@@ -1,0 +1,2 @@
+model version,data,max_depth,max_features,max_leaf_nodes,min_samples_leaf,min_weight_fraction_leaf,splitter,train score,test score,mse,rmse
+1,651,5,auto,,1,0.1,best,0.324904593,0.341217059,128.5801527,11.33931888
